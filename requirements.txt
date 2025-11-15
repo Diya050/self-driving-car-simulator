@@ -6,6 +6,6 @@ keras
 python-socketio
 Flask
 eventlet
-sklearn
+scikit-learn
 alnumentations
 pandas
