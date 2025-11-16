@@ -12,7 +12,7 @@ sio = socketio.Server(async_mode='eventlet', cors_allowed_origins='*')
 app = Flask(__name__)
 app = socketio.WSGIApp(sio, app)
 
-speed_limit = 15
+speed_limit = 10
 
 
 def img_preprocess(img):
